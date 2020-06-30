@@ -143,12 +143,16 @@
   }
   
   input,
-  textarea,
-  button {
+  textarea {
     width: 100%;
     border: 1px solid #000;
   }
-
+  button {
+    width: 17%;
+    background: #1E87C8;
+    border-radius: 6px;
+    border: 1px solid #000;
+  }
 /* CSS FOR TEXT AND IMAGE */
 * {
     margin:0;
@@ -265,5 +269,7 @@
       .wrapper {
         margin-left: 10%;
       }
+      .container {
+        height: 17em;}
   }
   
